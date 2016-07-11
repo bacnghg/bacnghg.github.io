@@ -1,0 +1,17 @@
+img{
+	width: 500px;
+	height: 500px;
+	border: 5px solid orange;
+}
+h1::before{
+	content: "Tên sách: ";
+}
+h2::before{
+	content: "Thông tin sách: "
+}
+h3::before{
+	content: "Giá thành: ";
+}
+h3::after{
+	content: " VND";
+}
